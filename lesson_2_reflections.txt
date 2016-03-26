@@ -1,0 +1,9 @@
+Lesson 2 Reflections 
+
+1) What happens when you initialize a repository? Why do you need to do it?
+Basic repository metadata is created on local PC. 
+It transformed a simple directory into a repository root. 
+
+2) How is the staging area different from the working directory and the repository? What value do you think it offers?
+It's a temp space that allows you to consolidate various files before committing a full change. 
+Very useful for multiple file commits. 
