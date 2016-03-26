@@ -7,3 +7,14 @@ It transformed a simple directory into a repository root.
 2) How is the staging area different from the working directory and the repository? What value do you think it offers?
 It's a temp space that allows you to consolidate various files before committing a full change. 
 Very useful for multiple file commits. 
+
+3) How can you use the staging area to make sure you have one commit per logical change?
+Add only files that relate to current change, or make my own branch. 
+
+4) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Experimental Change
+Equivalent to  "Revision Label" that we use in Star Team. (Can use a single commit, but this may be better)
+
+5) How do the diagrams help you visualize the branch structure?
+Simple graph gives a good idea of reachability.
+git log --graph --oneline <label1> <label2> is handy.
