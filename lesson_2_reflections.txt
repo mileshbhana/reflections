@@ -18,3 +18,18 @@ Equivalent to  "Revision Label" that we use in Star Team. (Can use a single comm
 5) How do the diagrams help you visualize the branch structure?
 Simple graph gives a good idea of reachability.
 git log --graph --oneline <label1> <label2> is handy.
+
+6) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+It allows for indepedant development of features. Merging ends that process by trying to automate trivial merging. 
+git merge branch1 branch2
+git merge --abort
+git merge --diff
+git merge --mergetool
+
+7) What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pro 
+Trivial Merging is automated
+
+Cons
+It's code with multiple people editing. Auto merging can have unintended consequences. 
+
