@@ -9,3 +9,7 @@ fork - a remote copy of a project. Editable without impacting the original. Meta
 clone - sync'd copy of a project. Updates, if commited to remote will update the original. Use with collaborators. 
 branches - within the same project. Allows independant development without impacting main branch. Use for a new feature. 
 
+4) What is the benefit of having a copy of the last known state of the remote stored locally?
+Allows merging to happen without having to worry about network overhead. 
+It does introduce the risk of the remote version moving on even further. 
+
