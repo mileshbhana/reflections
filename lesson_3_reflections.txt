@@ -1,2 +1,7 @@
 1) When would you want to use a remote repository rather than keeping all your work local?
 Anything I'd like to keep, one of the main benefits of source control is that it'll back up my code. 
+
+2) Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Other users could accidentally overwrite my changes. Common files will result in merges which i'd probably have to resolve before pulling?
+
+
