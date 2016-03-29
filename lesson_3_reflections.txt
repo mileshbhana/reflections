@@ -4,4 +4,8 @@ Anything I'd like to keep, one of the main benefits of source control is that it
 2) Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Other users could accidentally overwrite my changes. Common files will result in merges which i'd probably have to resolve before pulling?
 
+3) Describe the differences between forks, clones, and branches. When would you use one instead of another?
+fork - a remote copy of a project. Editable without impacting the original. Metadata indicates branch origin.
+clone - sync'd copy of a project. Updates, if commited to remote will update the original. Use with collaborators. 
+branches - within the same project. Allows independant development without impacting main branch. Use for a new feature. 
 
