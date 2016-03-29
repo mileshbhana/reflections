@@ -1,0 +1,2 @@
+1) When would you want to use a remote repository rather than keeping all your work local?
+Anything I'd like to keep, one of the main benefits of source control is that it'll back up my code. 
