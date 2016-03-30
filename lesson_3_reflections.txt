@@ -13,3 +13,6 @@ branches - within the same project. Allows independant development without impac
 Allows merging to happen without having to worry about network overhead. 
 It does introduce the risk of the remote version moving on even further. 
 
+5) How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Another repo like StarTeam / CVS / Suberversion / Visual Source Safe etc. Some easier some harder. 
+
